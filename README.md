@@ -1,7 +1,9 @@
 <h1 align="center">macro-harness</h1>
 <p align="center">
-  <b>Test harness for <a href="https://doc.rust-lang.org/reference/procedural-macros.html">Rust's procedural macros</a></b>
+  <b>Test harness for <a href="https://doc.rust-lang.org/reference/procedural-macros.html">procedural macros</a></b>
 </p>
+
+[![CI](https://github.com/kuy/macro-harness/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/kuy/macro-harness/actions/workflows/ci.yml)
 
 ![screen](./assets/screen.gif)
 
