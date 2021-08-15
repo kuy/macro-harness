@@ -1,0 +1,47 @@
+[package]
+name = "awesome-macro-tests"
+edition = "2018"
+version = "0.0.0"
+authors = []
+keywords = []
+categories = []
+autobins = true
+autoexamples = true
+autotests = true
+autobenches = true
+publish = false
+[dependencies.awesome]
+path = "/home/macro-harness/projects/awesome"
+features = []
+optional = false
+
+[dependencies.awesome-macro]
+path = "/home/macro-harness/projects/awesome-macro"
+features = []
+optional = false
+
+[dev-dependencies]
+
+[build-dependencies]
+
+[target]
+
+[features]
+
+[patch]
+
+[lib]
+path = "/home/macro-harness/projects/awesome/tests/test_macro.rs"
+test = true
+doctest = true
+bench = true
+doc = true
+plugin = false
+proc-macro = false
+harness = true
+edition = "2018"
+required-features = []
+
+[profile]
+[badges.maintenance]
+status = "none"
