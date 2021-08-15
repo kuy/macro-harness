@@ -5,6 +5,10 @@
 
 ![screen](./assets/screen.gif)
 
+## 🚨 UNDERDEVELOPMENT 🚨
+
+Working on MVP :)
+
 ## Usage
 
 ### 1. Prepare `Cargo.template.toml` file in `tests` directory
@@ -106,6 +110,9 @@ See [`tests`](https://github.com/kuy/decom/tree/main/flaterm-macro/tests) in [fl
 - [ ] Improve printing result
 - [ ] CI using GitHub Actions
 - [ ] Publish to crates.io
+- [ ] Handle various errors
+  - [ ] Not installed `cargo-expand` crate
+  - [ ] Version mismatch of `cargo-expand` (require `1.0.8` or later)
 
 ## License
 
