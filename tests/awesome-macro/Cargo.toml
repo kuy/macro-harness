@@ -1,0 +1,12 @@
+[package]
+name = "awesome-macro"
+version = "0.0.0"
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+
+[dev-dependencies]
+macro-harness = { path = "../../" }

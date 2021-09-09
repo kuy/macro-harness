@@ -1,0 +1,19 @@
+#![feature(prelude_import)]
+#[prelude_import]
+use std::prelude::rust_2018::*;
+#[macro_use]
+extern crate std;
+pub fn test() {
+    {
+        let res = ::alloc::fmt::format(::core::fmt::Arguments::new_v1(
+            &["answer = "],
+            &match (&42,) {
+                (arg0,) => [::core::fmt::ArgumentV1::new(
+                    arg0,
+                    ::core::fmt::Display::fmt,
+                )],
+            },
+        ));
+        res
+    };
+}
