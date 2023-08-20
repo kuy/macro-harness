@@ -16,4 +16,4 @@ similar = { version = "2.2", features = ["inline"] }
 toml = "0.5.9"
 
 [dev-dependencies]
-similar-asserts = "1.4.2"
+similar-asserts = "1.5.0"
